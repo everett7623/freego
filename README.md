@@ -354,22 +354,19 @@
 
 | 机场 | 核心优势 | 优惠力度 | 截止日期 | 优惠码 | 过境线路 | 快捷跳转 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 网际快车 | 家宽及原生节点，AI和流媒体全解锁 | 试用 1天/5GB | 长期 | `vpsknow` | 中转专线 | [立即注册](https://s.y8o.de/wjkc) |
-| SKYLUMO | 覆盖常用地区，极低门槛的入门日用方案 | 提供试用入口 | 长期 | `-` | 公网中转 | [立即注册](https://s.y8o.de/skylumo) |
-| Fastlink | 运营多年的老牌机场，节点覆盖广、稳定性高 | 常规 | 长期 | `-` | BGP/IPLC专线 | [立即注册](https://s.y8o.de/fastlink) |
-| 全球云 | 2Gbps+带宽，原生节点完美解锁各类流媒体及AI | 年付 8 折 | 长期 | `vpsknow` | IPLC/IEPL专线 | [立即注册](https://s.y8o.de/globalyun) |
-| 光速云 | 晚高峰稳定观影，原生IP稳定解锁流媒体 | 常规 | 长期 | `-` | IPLC专线 | [立即注册](https://s.y8o.de/lightspeed) |
-| 光年梯 | 全节点1倍率，晚高峰不限速，新加坡团队运营 | 新用户 7 折 | 2026年 | `GNT70` | IEPL专线 | [立即注册](https://s.y8o.de/lightyearti) |
-| TNTCloud | 全节点原生IP，提供极低价年付限量包 | 新人 85 折 | 长期 | `TNT85` | IPLC专线 | [立即注册](https://s.y8o.de/tnt) |
-| 极连云 | 专注出海加速，三网入口优化保障稳定性 | 8 折 | 长期 | `JLY888` | IPLC/IEPL专线 | [立即注册](https://s.y8o.de/jly) |
-| 星岛梦 | 不限速、无倍率、不限设备，提供永久不限时包 | 8 折 | 长期 | `XDM888` | IEPL专线 | [立即注册](https://s.y8o.de/stardream) |
-| 飞猫云 | 秒开4K流媒体与国际服游戏，延迟极低 | 常规 | 长期 | `-` | IEPL/IPLC专线 | [立即注册](https://s.y8o.de/flyingcat) |
-| 69云 | 提供多档流量分级套餐，深度整合Emby影音服务 | 常规 | 长期 | `-` | IPLC专线 | [立即注册](https://s.y8o.de/69yun) |
-| WgetCloud | 华为云BGP入口，多节点自动切换，企业级SLA保障 | 常规 | 长期 | `-` | BGP专线 | [立即注册](https://s.y8o.de/wgetcloud) |
-| Nexitally | 老牌佩奇自研面板，适合流媒体与稳定需求用户 | 常规 | 长期 | `-` | 高端专线 | [立即注册](https://s.y8o.de/naiixi) |
-| TAG | 节点覆盖广，包含大量冷门地区，延迟低丢包少 | 常规 | 长期 | `-` | IEPL专线 | [立即注册](https://s.y8o.de/tag) |
-| FlowerCloud | Trojan协议，线路质量极其稳定，安全性高 | 常规 | 长期 | `-` | BGP/IEPL专线 | [立即注册](https://s.y8o.de/flowercloud) |
-| YToo | 多线国际传输架构，覆盖大量非主流地区 | 常规 | 长期 | `-` | 多线国际加速 | [立即注册](https://s.y8o.de/ytoo) |
+| 网际快车 | 家宽及原生节点，AI和流媒体全解锁 | 试用 1天/5GB | 长期 | `vpsknow` | 中转专线 | [立即注册](https://go.uukk.de/wjkc) |
+| SKYLUMO | 覆盖常用地区，极低门槛的入门日用方案 | 提供试用入口 | 长期 | `-` | 公网中转 | [立即注册](https://go.uukk.de/skylumo) |
+| Fastlink | 运营多年的老牌机场，节点覆盖广、稳定性高 | 常规 | 长期 | `-` | BGP/IPLC专线 | [立即注册](https://go.uukk.de/fastlink) |
+| 全球云 | 2Gbps+带宽，原生节点完美解锁各类流媒体及AI | 年付 8 折 | 长期 | `vpsknow` | IPLC/IEPL专线 | [立即注册](https://go.uukk.de/globalyun) |
+| 光速云 | 晚高峰稳定观影，原生IP稳定解锁流媒体 | 常规 | 长期 | `-` | IPLC专线 | [立即注册](https://go.uukk.de/lightspeed) |
+| 光年梯 | 全节点1倍率，晚高峰不限速，新加坡团队运营 | 新用户 7 折 | 2026年 | `GNT70` | IEPL专线 | [立即注册](https://go.uukk.de/lightyearti) |
+| 极连云 | 专注出海加速，三网入口优化保障稳定性 | 8 折 | 长期 | `JLY888` | IPLC/IEPL专线 | [立即注册](https://go.uukk.de/jly) |
+| 69云 | 提供多档流量分级套餐，深度整合Emby影音服务 | 常规 | 长期 | `-` | IPLC专线 | [立即注册](https://go.uukk.de/69yun) |
+| WgetCloud | 华为云BGP入口，多节点自动切换，企业级SLA保障 | 常规 | 长期 | `-` | BGP专线 | [立即注册](https://go.uukk.de/wgetcloud) |
+| Nexitally | 老牌佩奇自研面板，适合流媒体与稳定需求用户 | 常规 | 长期 | `-` | 高端专线 | [立即注册](https://go.uukk.de/naiixi) |
+| TAG | 节点覆盖广，包含大量冷门地区，延迟低丢包少 | 常规 | 长期 | `-` | IEPL专线 | [立即注册](https://go.uukk.de/tag) |
+| FlowerCloud | Trojan协议，线路质量极其稳定，安全性高 | 常规 | 长期 | `-` | BGP/IEPL专线 | [立即注册](https://go.uukk.de/flowercloud) |
+| YToo | 多线国际传输架构，覆盖大量非主流地区 | 常规 | 长期 | `-` | 多线国际加速 | [立即注册](https://go.uukk.de/ytoo) |
 
 <a id="troubleshoot"></a>
 #### 关键设置与排障要点（通用）

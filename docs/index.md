@@ -357,7 +357,6 @@ description: 2026 最新科学上网教程：系统讲解 Clash（规则分流�
 
 | 机场 | 核心优势 | 优惠力度 | 截止日期 | 优惠码 | 过境线路 | 快捷跳转 |
 | --- | --- | --- | --- | --- | --- | --- |
-| TNTCloud | 全 IPLC 专线 + 原生 IP，AI 解锁顶级 | 长期 8 折（部分套餐除外） | 长期 | `Tnt80` | 全节点 IPLC 专线 | [立即注册](https://tanu095.tntvipaff.cc/#/register?code=7MPbfr89) |
 | 小蜜蜂机场 | 全 IEPL 性价比，AI/流媒体解锁 | 长期 8 折（部分套餐除外） | 长期 | `TVX8JfZP` | 全节点 IEPL 专线 | [立即注册](https://tangwu095.xmfvipaff01.cc/register?aff=oClLBb5A) |
 | 青云梯 | 老牌稳定，智能分流 | 年付及以上 8 折 / 其他 85 折（部分套餐除外） | 长期 | `gptvpnhelper80` / `gptvpnhelper85` | 企业级 IPLC 专线 | [立即注册](https://realvtest.qytvipaff.cc/register?aff=zcIlh0VY) |
 | 银河云 | Trojan 专线，预算党主力/备用 | 长期 8 折 / 85 折（部分套餐除外） | 长期 | `gptvpnhelper80` / `gptvpnhelper85` | Trojan + IEPL 专线 | [立即注册](https://inv03.galaxyaff.cc/register?aff=tcOd0ob7) |
