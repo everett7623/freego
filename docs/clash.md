@@ -50,16 +50,16 @@ description: 面向完全新手的 Clash 机场使用教程，区分机场官方
 
 | 机场 | 简单定位 | 优惠/参考 | 注册链接 |
 | --- | --- | --- | --- |
-| **网际快车** | 试用与按量备用，适合先验证家宽/AI 节点 | 先试用 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **喵喵VPN** | 入门备用，适合短周期测试影音与 AI | 先月付 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **COCODUCK VPN** | IEPL/BGP 混合，适合 VLESS、AI 与流媒体 | 先短周期复核 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **Fastlink** | BGP/IPLC 混合线路，适合长期主力与流媒体 | 先短周期复核 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **TAG** | 多地区节点，适合特殊地区覆盖需求 | 注意倍率，按节点测试 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **MESL** | IEPL 专线与家宽/商宽节点，适合高要求场景 | 仍需按节点测试 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **ImmTelecom** | IEPL/IPLC 与 AnyTLS 多地区节点，适合 AI/流媒体 | 建议短周期验证 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **肯の机** | 多入口优化，适合港日美主力线路 | 核对地区和协议支持 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **ViKing Links** | 多地区与流媒体场景，适合中高预算 | 核对套餐和设备限制 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **WgetCloud** | 团队办公和高预算稳定性需求 | 先确认退款条件 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **网际快车** | 试用与按量备用，适合先验证家宽/AI 节点 | 先试用 | [短链注册入口](https://go.uukk.de/wjkc) |
+| **喵喵VPN** | 入门备用，适合短周期测试影音与 AI | 先月付 | [短链注册入口](https://go.uukk.de/vpnmiao) |
+| **COCODUCK VPN** | IEPL/BGP 混合，适合 VLESS、AI 与流媒体 | 先短周期复核 | [短链注册入口](https://go.uukk.de/cocoduck) |
+| **Fastlink** | BGP/IPLC 混合线路，适合长期主力与流媒体 | 先短周期复核 | [短链注册入口](https://go.uukk.de/fastlink) |
+| **TAG** | 多地区节点，适合特殊地区覆盖需求 | 注意倍率，按节点测试 | [短链注册入口](https://go.uukk.de/tag) |
+| **MESL** | IEPL 专线与家宽/商宽节点，适合高要求场景 | 仍需按节点测试 | [短链注册入口](https://go.uukk.de/mesl) |
+| **ImmTelecom** | IEPL/IPLC 与 AnyTLS 多地区节点，适合 AI/流媒体 | 建议短周期验证 | [短链注册入口](https://go.uukk.de/immtele) |
+| **肯の机** | 多入口优化，适合港日美主力线路 | 核对地区和协议支持 | [短链注册入口](https://go.uukk.de/kendeji) |
+| **ViKing Links** | 多地区与流媒体场景，适合中高预算 | 核对套餐和设备限制 | [短链注册入口](https://go.uukk.de/vikinglinks) |
+| **WgetCloud** | 团队办公和高预算稳定性需求 | 先确认退款条件 | [短链注册入口](https://go.uukk.de/wgetcloud) |
 
 > 本次入口更新时间：2026-06-07。这里保留更适合跟随教程长期配置的主力/备用入口；优惠码、客户端要求、套餐和可用入口变化很快，付款前请以服务商公告和结算页为准。
 
