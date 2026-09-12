@@ -1,5 +1,5 @@
 <!-- Intentional mirror: README.md and docs/index.md intentionally keep near-identical content. README serves GitHub, docs/index.md serves GitHub Pages. -->
-# 2026 保姆级科学上网/魔法上网教程：Clash机场 / VPN / 自建 VPS 全面解析
+# 2026 保姆级科学上网 / 魔法上网教程：Clash（规则分流）机场 / VPN / 自建 VPS 全面解析
 
 ## 引言：什么是“科学上网”？
 
@@ -9,7 +9,7 @@
 
 > ⭐ **觉得有帮助？点个 Star⭐  鼓励我持续更新更多科学上网/Clash 机场/VPN 干货！**
 
-最近更新：2026-03-11
+最近更新：2026-09-11
 
 ---
 
@@ -18,6 +18,40 @@
 - 本项目不提供任何代理节点、配置文件或翻墙软件，仅做网络环境与工具的科普与选型建议；
 - 请严格遵守所在地区法律法规，仅将本文内容用于学习、访问合规网站和工作/科研用途；
 - 不鼓励也不支持任何形式的违法犯罪、政治活动或攻击行为，使用者应对自己的行为负责。
+
+---
+
+## 本页怎么用（按你现在的状态）
+
+| 你现在的情况 | 建议阅读路径 |
+| --- | --- |
+| 只想先跑通 | 先看 [Clash 新手图文教程](./clash.md)，拿到订阅后按“导入 → Rule → 系统代理/TUN → 测试”走 |
+| 还没决定买哪家 | 先看 [机场选购与避坑](./choose.md)，再回到本文的 [快速注册入口](#register)，第一次优先月付/季付测试 |
+| 已经能连但不稳定 | 先看本文 [排障速查](#quick-fix)，再看 [独立排障页](./troubleshooting.md) |
+| 想理解原理和长期维护 | 按顺序看 [线路科普](./route.md)、[协议科普](./protocols.md)、[名词解释](./mingci.md) |
+
+---
+
+## 先看结论（30 秒版）
+
+- **完全新手**：优先 `mihomo` 系客户端 + 机场订阅，先用 `Rule` 模式；只有遇到“某些 App / 游戏不走代理”时再开 `TUN`
+- **AI / 远程办公重度**：先看“地区可用性 + 晚高峰稳定性 + 备用节点”，不要把重点放在花哨协议名词上
+- **想少踩坑**：优先看 [机场选购与避坑](./choose.md) → [图文配置教程](./clash.md) → [独立排障页](./troubleshooting.md)
+- **想学习原理或做备援**：自建 VPS 值得学，但更适合当第二通道，不建议第一次就当唯一方案
+- **公共 Wi‑Fi / 海外出差**：商业 VPN 更偏隐私保护工具；在中国大陆本地长期使用前，先确认试用或退款政策
+
+---
+
+## 你应该先点哪篇？
+
+> 下面给的是最短阅读路径；更详细的分支说明见下方 [读者从这里开始（按目标）](#start-here)。
+
+| 你的目标 | 先看 | 然后看 |
+| --- | --- | --- |
+| 只想尽快用起来 | [Clash 新手图文教程](./clash.md) | [机场选购与避坑](./choose.md) / [独立排障页](./troubleshooting.md) |
+| 想稳定用 ChatGPT / Claude | [机场选购与避坑](./choose.md) | [协议科普](./protocols.md) / [独立排障页](./troubleshooting.md) |
+| 想看 YouTube / Netflix / Disney+ | [线路科普](./route.md) | [机场选购与避坑](./choose.md) / [独立排障页](./troubleshooting.md) |
+| 想补基础概念 | [名词解释](./mingci.md) | [线路科普](./route.md) / [协议科普](./protocols.md) |
 
 ---
 
@@ -42,16 +76,18 @@
 
 ---
 
-## 文档入口（仓库内页）
+## 文档入口（按用途）
 
-- 新手从 0 到 1：[2026 Clash 机场零基础订阅图文教程：订阅导入到测速](./clash.md)
-- 机场选购与避坑：[2026 如何挑选优质 Clash 机场（避坑与选购指南）](./choose.md)
-- 独立排障页：[Clash / Mihomo 常见问题排障指南（按症状排查）](./troubleshooting.md)
-- 线路科普（直连/中转/专线）：[直连/中转/专线（IEPL/IPLC）区别与选择](./route.md)
-- 协议科普（Reality/TUIC/Hysteria2 等）：[协议科普与选型](./protocols.md)
-- 名词解释：[Clash 机场常用名称解释](./mingci.md)
+| 专题 | 解决什么问题 | 入口 |
+| --- | --- | --- |
+| 新手配置 | 区分官方客户端 / 通用客户端，从安装、订阅导入到测速验证 | [2026 Clash 机场零基础使用教程：官方客户端 / 通用客户端 / 订阅导入](./clash.md) |
+| 机场选购 | 预算、线路、AI 可用性、流媒体解锁怎么判断 | [2026 如何挑选优质 Clash 机场（避坑与选购指南）](./choose.md) |
+| 独立排障 | 连不上、打不开、订阅更新失败时怎么排查 | [Clash / Mihomo 常见问题排障指南（按症状排查）](./troubleshooting.md) |
+| 线路科普 | 直连 / 中转 / 专线（IEPL / IPLC）怎么选 | [直连/中转/专线（IEPL/IPLC）区别与选择](./route.md) |
+| 协议科普 | Reality / TUIC / Hysteria2 等协议怎么看 | [协议科普与选型](./protocols.md) |
+| 名词解释 | 面板、订阅、策略组、流媒体解锁等名词是什么意思 | [Clash 机场常用名称解释](./mingci.md) |
 
-> 提示：这些入口指向仓库文档页（GitHub）便于长期维护；如果你更习惯在本站阅读，可以把链接收藏到浏览器。
+> 如果你只想先收藏 3 篇：优先保存 [机场选购与避坑](./choose.md)、[Clash 新手图文教程](./clash.md)、[独立排障页](./troubleshooting.md)。
 
 ---
 
@@ -59,18 +95,22 @@
 
 > 这一节用于回答两个问题：**“现在还用 Clash 吗？”**、**“到底该下哪个客户端/内核？”**  
 > 你不需要理解所有细节，记住「内核 + 客户端 + 订阅」三件事就能跑起来。
+>
+> 核对时间：2026-06-07。客户端和内核版本变化很快，下载前建议以官方 release 页面为准；下面列的是本次核对到的 latest 标签，不代表长期固定版本。
 
-- **原版 Clash（Dreamacro/clash）基本停更**：现在大家口中的 “Clash” 更多是指「规则分流生态」本身，而不是某个单一仓库。
-- **主流内核（2026）**：
-  - `mihomo`：原 Clash.Meta 生态，延续 Clash 配置与规则分流体验（文档与生态：<https://wiki.metacubex.one/>）
-  - `sing-box`：更偏“多协议 + 通用代理平台”，不少新协议/新能力会先在这里出现（官方文档：<https://sing-box.sagernet.org/>）
-- **常见桌面客户端（持续更新）**：
-  - Windows/macOS：Clash Verge Rev（内置/适配 `mihomo`）：<https://github.com/clash-verge-rev/clash-verge-rev/releases>
-  - Windows/macOS/Linux：Mihomo Party（内置/适配 `mihomo`）：<https://github.com/mihomo-party-org/mihomo-party/releases>
-  - macOS：ClashX Meta（`mihomo` 系客户端）：<https://github.com/MetaCubeX/ClashX.Meta/releases>
-  - Android：Clash Meta for Android（`mihomo` 系客户端）：<https://github.com/MetaCubeX/ClashMetaForAndroid/releases>（F-Droid：<https://f-droid.org/packages/com.github.metacubex.clash.meta/>）
-- **协议趋势（2026）**：Reality / TUIC / Hysteria2 等仍是常见“新协议”关键词；是否能用取决于**机场面板参数 + 你的内核/客户端是否支持**。
-- **配置趋势（2026）**：`TUN`、加密 DNS（DoH/DoT/DoQ）、以及规则集订阅（`rule-set` / providers）越来越常见；很多“能连上但打不开/命不中规则”的问题，本质是 DNS 或规则集没更新。
+- **原版 Clash（Dreamacro/clash）已不再适合作为下载入口**：本次核对时原仓库地址返回 404。现在大家口中的 “Clash” 更多是指「规则分流生态」本身，而不是某个单一仓库。
+- **主流内核（2026-06 核对）**：
+  - `mihomo`：原 Clash.Meta 生态，延续 Clash 配置与规则分流体验；本次核对 latest 为 `v1.19.27`，仍是规则分流生态的主流内核之一（文档与生态：<https://wiki.metacubex.one/>）
+  - `sing-box`：更偏“多协议 + 通用代理平台”，适合需要跨平台、多入站/出站、服务端部署或更细配置的用户；本次核对 latest 为 `v1.13.13`（官方文档：<https://sing-box.sagernet.org/>）
+  - `Xray-core`：自建 VPS 用户常见选择；本次核对 latest 为 `v26.3.27`（官方站点：<https://xtls.github.io/>）
+- **常见客户端（2026-06 核对）**：
+  - Windows/macOS/Linux：Clash Verge Rev（本次核对 latest `v2.5.1`）：<https://github.com/clash-verge-rev/clash-verge-rev/releases>
+  - Windows/macOS/Linux：Clash Party（本次核对 latest `v1.9.5`）：<https://github.com/mihomo-party-org/clash-party/releases>
+  - macOS：ClashX Meta（本次核对 latest `v1.4.37`）：<https://github.com/MetaCubeX/ClashX.Meta/releases>
+  - Android：Clash Meta for Android（本次核对 latest `v2.11.30`）：<https://github.com/MetaCubeX/ClashMetaForAndroid/releases>（F-Droid：<https://f-droid.org/packages/com.github.metacubex.clash.meta/>）
+- **协议趋势（2026-06）**：Reality / TUIC / Hysteria2 仍是常见关键词；xHTTP、gRPC、REALITY、Hysteria2 端口跳跃等细节更新较快。是否能用取决于**机场面板参数 + 订阅转换质量 + 你的内核/客户端版本**。
+- **配置趋势（2026-06）**：`TUN`、加密 DNS（DoH/DoT/DoQ）、规则集订阅（`rule-set` / providers）和订阅 User-Agent/请求头兼容性更常见；很多“能连上但打不开/命不中规则/订阅更新失败”的问题，本质是 DNS、规则集或订阅格式没对上。
+- **安全更新提醒**：Hysteria2、sing-box、mihomo、Xray-core 等核心组件如果出现安全修复或协议兼容提示，应优先更新；Hysteria2 本次核对 latest 为 `app/v2.9.2`。使用 Hysteria2/TUIC 这类 UDP/QUIC 协议时，客户端和服务端版本不匹配也可能导致 UDP 转发异常。
 
 > 不想纠结：按本文「快速开始」走，新手优先选 **`mihomo` 系客户端 + 开启 `Rule` + 必要时启用 `TUN`**。
 
@@ -100,7 +140,7 @@
   ChatGPT、Gemini、Copilot、Claude、Perplexity AI
 
 - **流媒体服务**：  
-  Netflix、Disney+、Max（HBO Max）、Amazon Prime Video、Hulu
+  Netflix、Disney+、Max（原 HBO Max）、Amazon Prime Video、Hulu
 
 > ⚠️ *这些平台涵盖了学习、工作、研究、娱乐等多个领域，对于现代数字生活极为重要。*
 
@@ -188,11 +228,11 @@
 如果你只想尽快“能用起来”，按下面流程做就够了（细节看文末延伸阅读）。
 
 1. 明确你的主要用途：AI（ChatGPT/Claude）、学术资料、远程办公、流媒体、游戏。用途会决定你更需要“地区/IP/线路/延迟/稳定性”里的哪一项。
-2. 新手首选 **Clash（规则分流）+ 机场订阅**：一个客户端 + 一条订阅链接，通常比自建 VPS 更省心。
-   - 说明：原版 Clash（`Dreamacro/clash`）项目已基本停止维护；本文中的 “Clash” 泛指兼容该规则分流生态的客户端/内核（如 `mihomo`（原 Clash.Meta 生态）、`sing-box` 等）。不同客户端/内核对 `TUN`、脚本、部分新协议等能力支持可能不同。
+2. 新手先看机场是否提供**官方客户端**：如果官网有官方客户端，优先按机场官网下载和使用；如果要用 Clash / Mihomo / Shadowrocket / Stash 这类**通用客户端**，再从后台复制订阅链接导入。
+   - 说明：原版 Clash（`Dreamacro/clash`）已不再适合作为下载入口；本文中的 “Clash” 泛指兼容该规则分流生态的客户端/内核（如 `mihomo`（原 Clash.Meta 生态）、`sing-box` 等）。不同客户端/内核对 `TUN`、脚本、部分新协议等能力支持可能不同。
    - 直接看入口与折扣：[#快速注册入口](#register)
-3. 按图文教程完成配置：导入订阅 → 选 `Rule` 模式 → 开启系统代理或 `TUN` → 测速选节点 → 访问测试网站。
-   - 图文教程（含各平台客户端）：[2026 Clash 机场零基础订阅图文教程：订阅导入到测速](./clash.md)
+3. 按图文教程完成配置：官方客户端按官网教程登录/导入；通用客户端按“复制订阅链接 → 导入 → 选 `Rule` → 系统代理 / TUN → 测速”走。
+   - 图文教程（含两类客户端区别）：[2026 Clash 机场零基础使用教程：官方客户端 / 通用客户端 / 订阅导入](./clash.md)
 4. 选购前先把关键概念搞懂（能少踩一半坑）：
    - 选购与避坑优先看：[2026 如何挑选优质 Clash 机场（避坑与选购指南）](./choose.md)
    - 更多技术专题（线路/协议/名词/排障）见下方：[推荐阅读（按顺序）](#reading)
@@ -221,9 +261,9 @@
 
 | 平台 | 推荐客户端（2026） | 推荐内核路线 | 你可能需要注意 |
 | --- | --- | --- | --- |
-| Windows | Clash Verge Rev / Mihomo Party | `mihomo` 优先 | `TUN` 可能需要管理员权限/Wintun；注意 DNS 与规则集更新 |
-| macOS | Clash Verge Rev / Mihomo Party / ClashX Meta | `mihomo` 优先 | `TUN`/系统扩展权限；首次安装注意“允许”提示 |
-| Linux | Mihomo Party（如需 GUI）/ 自行部署 | `mihomo` 或 `sing-box` | 桌面环境差异大，常见问题在透明代理/TUN 与 DNS |
+| Windows | Clash Verge Rev / Clash Party | `mihomo` 优先 | Clash Verge Rev 已不再面向 Win7；`TUN` 可能需要管理员权限/Wintun；注意 DNS 与规则集更新 |
+| macOS | Clash Verge Rev / Clash Party / ClashX Meta | `mihomo` 优先 | 区分 Intel / Apple Silicon；`TUN`/系统扩展权限；首次安装注意“允许”提示 |
+| Linux | Clash Party（如需 GUI）/ 自行部署 | `mihomo` 或 `sing-box` | 桌面环境差异大，常见问题在透明代理/TUN 与 DNS |
 | Android | Clash Meta for Android | `mihomo` 优先 | 省电策略可能杀后台；UDP/QUIC 协议更依赖网络环境 |
 | iOS/iPadOS | Shadowrocket / Stash / Loon / Surge（以商店与地区为准） | 多数为“客户端自带能力” | 部分客户端付费且可能需要外区 Apple ID；协议支持以实际版本为准 |
 
@@ -268,6 +308,7 @@
 | TUIC | `tuic` / `uuid` / `password` | 低延迟、对体验有要求 | 依赖 UDP/QUIC 环境；路由器/网络拦 UDP 会断流 |
 | Hysteria2 | `hy2` / `obfs` / `auth` | 丢包环境下的吞吐表现 | 也依赖 UDP/QUIC；MTU/丢包会导致波动 |
 | Trojan / VLESS（非 Reality） | `trojan` / `vless` / `tls` | 配置通用、兼容性好 | 地区/线路不行时，协议本身救不了体验 |
+| xHTTP / gRPC 等传输 | `xhttp` / `grpc` / `h2` | 新版 Xray/mihomo 生态中更常见 | 字段更新快，旧客户端或订阅转换工具可能不识别 |
 
 > 想搞懂细节：看 [线路科普](./route.md) 与 [协议科普](./protocols.md)。
 
@@ -328,14 +369,17 @@
 - Project X / Xray-core 官方站点（配置与 Quickstart）：<https://xtls.github.io/>
 - Xray-core GitHub（安装/示例/客户端生态索引）：<https://github.com/XTLS/Xray-core>
 - sing-box 官方文档（安装与配置）：<https://sing-box.sagernet.org/>
+
+如果你想先了解 VPS 线路、测评指标和基础运维，再决定是否自建，可以参考 [VPSKnow 的 VPS 工具与教程索引](https://vpsknow.com/)。它适合作为选型资料补充，不替代官方文档或你自己的连通性测试。
 ---
 
 ### 9. 方式二：Clash（规则分流）+ 机场订阅（最推荐新手）
 
-**Clash（规则分流客户端）** 是基于规则引擎的跨平台代理客户端（不同客户端可能内置不同 Clash 系内核/维护分支）。配合订阅型“机场”节点服务，可以做到：一键导入、多端通用、规则分流、自动更新。
+**Clash（规则分流客户端）** 是基于规则引擎的跨平台代理客户端（不同客户端可能内置不同 Clash 系内核/维护分支）。配合订阅型“机场”节点服务，可以做到：一键导入、多端通用、规则分流、自动更新。需要注意的是，很多机场也会提供自己的**官方客户端**，这类客户端通常从机场官网下载，入口、线路和参数由服务商直接维护；Clash / Mihomo / Shadowrocket / Stash 这类则属于**通用客户端**，一般需要复制订阅链接导入。
 
-- **操作流程**：获取订阅链接 → 导入客户端 → 选择策略组/节点 → 开启系统代理或 `TUN` → 测速与日常使用
-- **客户端选择**：不同平台推荐见图文教程（含下载地址与配置截图）
+- **官方客户端流程**：登录机场官网 → 下载官方客户端 → 按官网教程登录或导入 → 选择节点/模式 → 开启连接
+- **通用客户端流程**：获取订阅链接 → 导入 Clash / Mihomo 等客户端 → 选择策略组/节点 → 开启系统代理或 `TUN` → 测速与日常使用
+- **客户端选择**：两类客户端区别和不同平台推荐见图文教程
 
 **优点：**
 
@@ -352,21 +396,22 @@
 <a id="register"></a>
 #### 🔝 快速注册入口
 
-| 机场 | 核心优势 | 优惠力度 | 截止日期 | 优惠码 | 过境线路 | 快捷跳转 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 网际快车 | 家宽及原生节点，AI和流媒体全解锁 | 试用 1天/5GB | 长期 | `vpsknow` | 中转专线 | [立即注册](https://go.uukk.de/wjkc) |
-| SKYLUMO | 覆盖常用地区，极低门槛的入门日用方案 | 提供试用入口 | 长期 | `-` | 公网中转 | [立即注册](https://go.uukk.de/skylumo) |
-| Fastlink | 运营多年的老牌机场，节点覆盖广、稳定性高 | 常规 | 长期 | `-` | BGP/IPLC专线 | [立即注册](https://go.uukk.de/fastlink) |
-| 全球云 | 2Gbps+带宽，原生节点完美解锁各类流媒体及AI | 年付 8 折 | 长期 | `vpsknow` | IPLC/IEPL专线 | [立即注册](https://go.uukk.de/globalyun) |
-| 光速云 | 晚高峰稳定观影，原生IP稳定解锁流媒体 | 常规 | 长期 | `-` | IPLC专线 | [立即注册](https://go.uukk.de/lightspeed) |
-| 光年梯 | 全节点1倍率，晚高峰不限速，新加坡团队运营 | 新用户 7 折 | 2026年 | `GNT70` | IEPL专线 | [立即注册](https://go.uukk.de/lightyearti) |
-| 极连云 | 专注出海加速，三网入口优化保障稳定性 | 8 折 | 长期 | `JLY888` | IPLC/IEPL专线 | [立即注册](https://go.uukk.de/jly) |
-| 69云 | 提供多档流量分级套餐，深度整合Emby影音服务 | 常规 | 长期 | `-` | IPLC专线 | [立即注册](https://go.uukk.de/69yun) |
-| WgetCloud | 华为云BGP入口，多节点自动切换，企业级SLA保障 | 常规 | 长期 | `-` | BGP专线 | [立即注册](https://go.uukk.de/wgetcloud) |
-| Nexitally | 老牌佩奇自研面板，适合流媒体与稳定需求用户 | 常规 | 长期 | `-` | 高端专线 | [立即注册](https://go.uukk.de/naiixi) |
-| TAG | 节点覆盖广，包含大量冷门地区，延迟低丢包少 | 常规 | 长期 | `-` | IEPL专线 | [立即注册](https://go.uukk.de/tag) |
-| FlowerCloud | Trojan协议，线路质量极其稳定，安全性高 | 常规 | 长期 | `-` | BGP/IEPL专线 | [立即注册](https://go.uukk.de/flowercloud) |
-| YToo | 多线国际传输架构，覆盖大量非主流地区 | 常规 | 长期 | `-` | 多线国际加速 | [立即注册](https://go.uukk.de/ytoo) |
+下面只保留简单信息和注册入口，适合已经决定使用机场订阅、想快速查看套餐的新手。价格、优惠码、客户端支持和可用入口可能随时间变化，付款前请以官网结算页和服务商公告为准。
+
+> 快速判断：普通用户先看 `BoostNet / 悠兔`；预算备用看 `银河云 / 青云梯`；原生 IP、跨境业务或团队办公，再分别看 `TNTCloud / 唯兔云 / WgetCloud`；完全连不上外网时再考虑 `百变小樱` 这类应急入口。
+
+| 机场 | 简单定位 | 优惠/参考 | 注册链接 |
+| --- | --- | --- | --- |
+| **BoostNet** | 综合主力首选，适合 AI、流媒体和远程办公一起用 | 新用户 8 折：`boost` | [立即注册](https://888.boostqz.com/?path=register&code=kKMFirlm) |
+| **悠兔机场** | 高端 IEPL 专线，适合长期主用和晚高峰稳定需求 | 新用户 8 折：`888` | [立即注册](https://youtunice.com/?path=register&code=erkQTmbM) |
+| **TNTCloud** | IPLC 专线，偏 AI、原生 IP 和高质量出口场景 | 长期 8 折：`Tnt80` | [立即注册](https://tanu095.tntvipaff.cc/#/register?code=7MPbfr89) |
+| **唯兔云** | IPLC + SS2022，适合 TikTok、电商和多区域业务 | 新人 9 折：`rabbit` | [立即注册](https://realvpn.v2yunvipaff.com/#/?code=5LVpl8Mh) |
+| **青云梯** | 老牌机场，适合年付省心和家庭多设备备用 | 年付及以上 8 折 / 其他 85 折 | [立即注册](https://realvtest.qytvipaff.cc/register?aff=zcIlh0VY) |
+| **银河云** | 预算优先，适合轻中度主力或备用线路 | 长期 8 折 / 85 折 | [立即注册](https://inv03.galaxyaff.cc/register?aff=tcOd0ob7) |
+| **WgetCloud** | 团队办公和高预算稳定性刚需，当前更适合能接受年付门槛的人 | 新用户通常有 85 折券，以结算页为准 | [立即注册](https://invite.wgetcloud.ltd/auth/register?code=kVJQPh) |
+| **百变小樱** | 新手应急入口，适合先恢复连接再慢慢筛选 | 长期 95 折：`bbxy-5th` | [立即注册](https://cn2.cardsakura.buzz/v2/register?code=FFHk) |
+
+> 本次入口更新时间：2026-06-07。机场推荐顺序、注册链接和优惠备注已按 `../clash/README.md` 当前推荐位同步；百变小樱 68 折活动已在 2026-05-31 23:59 结束，当前只保留长期 95 折码。优惠码、客户端要求、套餐和可用入口变化很快，付款前请以服务商公告和结算页为准。
 
 <a id="troubleshoot"></a>
 #### 关键设置与排障要点（通用）
@@ -374,13 +419,14 @@
 - 日常优先 `Rule` 模式（国内直连、国外走代理），只在“规则不覆盖/业务需要”时临时切 `Global`
 - 系统代理 vs `TUN`：浏览器/多数应用用系统代理即可；游戏/不走代理的软件建议启用 `TUN`
 - DNS 很关键：解析污染/劫持会导致“节点可用但网站打不开/规则命不中”；优先使用客户端内置的安全 DNS / 加密 DNS（DoH/DoT/DoQ）方案，并确保规则集/Geo 数据定期更新
-- 订阅更新失败：先检查订阅是否过期、服务商面板是否可访问，再尝试手动更新或重新导入订阅链接
+- 订阅更新失败：先检查订阅是否过期、服务商面板是否可访问，再尝试手动更新、调整订阅 User-Agent 或重新导入订阅链接
 - 使用 Hysteria2 / TUIC 等（常见基于 UDP/QUIC）的协议时：确认客户端允许 UDP、系统/路由器不拦截 UDP；如果“能连但很慢/断流”，优先换同地区的不同线路节点测试
+- Hysteria2 如果遇到“TCP 正常、UDP 不通”，还要确认机场服务端与客户端版本是否兼容；官方新版本发布后，服务端和客户端最好按服务商建议同步更新
 
 <a id="reading"></a>
 #### 推荐阅读（按顺序）
 
-- [2026 Clash 机场零基础订阅图文教程：订阅导入到测速](./clash.md)
+- [2026 Clash 机场零基础使用教程：官方客户端 / 通用客户端 / 订阅导入](./clash.md)
 - [2026 如何挑选优质 Clash 机场（避坑与选购指南）](./choose.md)
 - [独立排障页：Clash / Mihomo 常见问题排障指南（按症状排查）](./troubleshooting.md)
 - [线路科普：直连/中转/专线（IEPL/IPLC）区别与选择](./route.md)
@@ -393,10 +439,13 @@
 - sing-box 文档（多协议/通用代理平台）：<https://sing-box.sagernet.org/>
 - Hysteria2 官方文档：<https://hy2.app/>
 - TUIC 协议规范：<https://github.com/tuic-protocol/tuic>
+- Clash Verge Rev Releases：<https://github.com/clash-verge-rev/clash-verge-rev/releases>
+- Clash Party Releases：<https://github.com/mihomo-party-org/clash-party/releases>
+- Clash Meta for Android Releases：<https://github.com/MetaCubeX/ClashMetaForAndroid/releases>
 
 如果你只想快速对比机场套餐，可以参考这份榜单（可能包含邀请码/来源参数，是否使用自行判断）：
 
-- [Clash 机场推荐榜单查看 | 适合 AI 工具和流媒体平台](https://gptvpnhelper.com/airport-access/)
+- [机场选购与避坑指南（本项目维护）](./choose.md)
 
 ---
 
@@ -543,7 +592,7 @@
 
 iOS 常见客户端有 Shadowrocket、Stash 等（多为付费软件，且可能需要外区 Apple ID）。具体安装与配置见图文教程：
 
-- [2026 Clash 机场零基础订阅图文教程：订阅导入到测速](./clash.md)
+- [2026 Clash 机场零基础使用教程：官方客户端 / 通用客户端 / 订阅导入](./clash.md)
 
 ### 6. 免费科学上网工具能用吗？
 
