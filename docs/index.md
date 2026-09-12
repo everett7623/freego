@@ -372,7 +372,6 @@ description: 2026 最新科学上网教程：系统讲解 Clash（规则分流�
 - Xray-core GitHub（安装/示例/客户端生态索引）：<https://github.com/XTLS/Xray-core>
 - sing-box 官方文档（安装与配置）：<https://sing-box.sagernet.org/>
 
-如果你想先了解 VPS 线路、测评指标和基础运维，再决定是否自建，可以参考 [VPSKnow 的 VPS 工具与教程索引](https://vpsknow.com/)。它适合作为选型资料补充，不替代官方文档或你自己的连通性测试。
 ---
 
 ### 9. 方式二：Clash（规则分流）+ 机场订阅（最推荐新手）
