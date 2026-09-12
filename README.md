@@ -398,20 +398,16 @@
 
 下面只保留简单信息和注册入口，适合已经决定使用机场订阅、想快速查看套餐的新手。价格、优惠码、客户端支持和可用入口可能随时间变化，付款前请以官网结算页和服务商公告为准。
 
-> 快速判断：普通用户先看 `BoostNet / 悠兔`；预算备用看 `银河云 / 青云梯`；原生 IP、跨境业务或团队办公，再分别看 `TNTCloud / 唯兔云 / WgetCloud`；完全连不上外网时再考虑 `百变小樱` 这类应急入口。
+> 快速判断：先按 VPSKnow 的试用、性价比、专线和备用分类筛选，再用月付或试用验证；不要只看榜单名次或宣传标签。
 
 | 机场 | 简单定位 | 优惠/参考 | 注册链接 |
 | --- | --- | --- | --- |
-| **BoostNet** | 综合主力首选，适合 AI、流媒体和远程办公一起用 | 新用户 8 折：`boost` | [立即注册](https://888.boostqz.com/?path=register&code=kKMFirlm) |
-| **悠兔机场** | 高端 IEPL 专线，适合长期主用和晚高峰稳定需求 | 新用户 8 折：`888` | [立即注册](https://youtunice.com/?path=register&code=erkQTmbM) |
-| **TNTCloud** | IPLC 专线，偏 AI、原生 IP 和高质量出口场景 | 长期 8 折：`Tnt80` | [立即注册](https://tanu095.tntvipaff.cc/#/register?code=7MPbfr89) |
-| **唯兔云** | IPLC + SS2022，适合 TikTok、电商和多区域业务 | 新人 9 折：`rabbit` | [立即注册](https://realvpn.v2yunvipaff.com/#/?code=5LVpl8Mh) |
-| **青云梯** | 老牌机场，适合年付省心和家庭多设备备用 | 年付及以上 8 折 / 其他 85 折 | [立即注册](https://realvtest.qytvipaff.cc/register?aff=zcIlh0VY) |
-| **银河云** | 预算优先，适合轻中度主力或备用线路 | 长期 8 折 / 85 折 | [立即注册](https://inv03.galaxyaff.cc/register?aff=tcOd0ob7) |
-| **WgetCloud** | 团队办公和高预算稳定性刚需，当前更适合能接受年付门槛的人 | 新用户通常有 85 折券，以结算页为准 | [立即注册](https://invite.wgetcloud.ltd/auth/register?code=kVJQPh) |
-| **百变小樱** | 新手应急入口，适合先恢复连接再慢慢筛选 | 长期 95 折：`bbxy-5th` | [立即注册](https://cn2.cardsakura.buzz/v2/register?code=FFHk) |
+| **Fastlink** | BGP/IPLC 混合线路，适合长期主力与流媒体 | 先短周期复核，入口以 VPSKnow 页面为准 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **唯兔云** | IPLC 专线，适合流媒体、TikTok 和多设备 | 先月付验证，入口以 VPSKnow 页面为准 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **极连云** | IPLC/IEPL 专线，适合 AI、流媒体与稳定性需求 | 先核对套餐，入口以 VPSKnow 页面为准 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **MESL** | IEPL 专线与家宽/商宽节点，适合高要求场景 | 主力候选，仍需按节点测试 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
 
-> 本次入口更新时间：2026-06-07。机场推荐顺序、注册链接和优惠备注已按 `../clash/README.md` 当前推荐位同步；百变小樱 68 折活动已在 2026-05-31 23:59 结束，当前只保留长期 95 折码。优惠码、客户端要求、套餐和可用入口变化很快，付款前请以服务商公告和结算页为准。
+> 本次入口更新时间：2026-09-12。当前表格改为 VPSKnow 的主力候选入口；线路、套餐、优惠和客户端要求变化很快，付款前请以 VPSKnow 页面、服务商公告和结算页为准。
 
 <a id="troubleshoot"></a>
 #### 关键设置与排障要点（通用）
