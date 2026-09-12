@@ -41,14 +41,20 @@
 
 下面只放简单信息和注册链接，方便还没有机场账号的新手先拿到账号。价格、优惠码、客户端支持和可用入口可能随时间变化，付款前请以官网结算页和服务商公告为准。
 
-> 如果你是第一次购买，先用月付/季付验证本地网络、晚高峰和 AI/流媒体可用性。可先参考 VPSKnow 的试用、性价比和专线分类，再按自己的场景筛选。
+> 如果你是第一次购买，先用月付/季付验证本地网络、晚高峰和 AI/流媒体可用性。主力候选可先看网际快车、喵喵VPN、COCODUCK VPN 和 Fastlink；更高要求场景再看 TAG、MESL、ImmTelecom、肯の机、ViKing Links、WgetCloud。
 
 | 机场 | 简单定位 | 优惠/参考 | 注册链接 |
 | --- | --- | --- | --- |
-| **Fastlink** | BGP/IPLC 混合线路，适合长期主力与流媒体 | 先短周期复核，入口以 VPSKnow 页面为准 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **唯兔云** | IPLC 专线，适合流媒体、TikTok 和多设备 | 先月付验证，入口以 VPSKnow 页面为准 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **极连云** | IPLC/IEPL 专线，适合 AI、流媒体与稳定性需求 | 先核对套餐，入口以 VPSKnow 页面为准 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
-| **MESL** | IEPL 专线与家宽/商宽节点，适合高要求场景 | 主力候选，仍需按节点测试 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **网际快车** | 试用与按量备用，适合先验证家宽/AI 节点 | 先试用 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **喵喵VPN** | 入门备用，适合短周期测试影音与 AI | 先月付 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **COCODUCK VPN** | IEPL/BGP 混合，适合 VLESS、AI 与流媒体 | 先短周期复核 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **Fastlink** | BGP/IPLC 混合线路，适合长期主力与流媒体 | 先短周期复核 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **TAG** | 多地区节点，适合特殊地区覆盖需求 | 注意倍率，按节点测试 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **MESL** | IEPL 专线与家宽/商宽节点，适合高要求场景 | 仍需按节点测试 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **ImmTelecom** | IEPL/IPLC 与 AnyTLS 多地区节点，适合 AI/流媒体 | 建议短周期验证 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **肯の机** | 多入口优化，适合港日美主力线路 | 核对地区和协议支持 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **ViKing Links** | 多地区与流媒体场景，适合中高预算 | 核对套餐和设备限制 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
+| **WgetCloud** | 团队办公和高预算稳定性需求 | 先确认退款条件 | [查看 VPSKnow 入口](https://vpsknow.com/airport-recommendations) |
 
 > 本次入口更新时间：2026-06-07。这里保留更适合跟随教程长期配置的主力/备用入口；优惠码、客户端要求、套餐和可用入口变化很快，付款前请以服务商公告和结算页为准。
 
