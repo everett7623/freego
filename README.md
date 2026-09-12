@@ -402,10 +402,10 @@
 
 | 机场 | 简单定位 | 优惠/参考 | 注册链接 |
 | --- | --- | --- | --- |
-| **网际快车** | 试用与按量备用，适合先验证家宽/AI 节点 | 先试用，入口以 VPSKnow 页面为准 | [注册](https://go.uukk.de/wjkc) |
-| **喵喵VPN** | 入门备用，适合短周期测试影音与 AI | 先月付，入口以 VPSKnow 页面为准 | [注册](https://go.uukk.de/vpnmiao) |
-| **COCODUCK VPN** | IEPL/BGP 混合，适合 VLESS、AI 与流媒体 | 先短周期复核，入口以 VPSKnow 页面为准 | [注册](https://go.uukk.de/cocoduck) |
-| **Fastlink** | BGP/IPLC 混合线路，适合长期主力与流媒体 | 先短周期复核，入口以 VPSKnow 页面为准 | [注册](https://go.uukk.de/fastlink) |
+| **网际快车** | 试用与按量备用，适合先验证家宽/AI 节点 | 先试用，入口以服务商页面为准 | [注册](https://go.uukk.de/wjkc) |
+| **喵喵VPN** | 入门备用，适合短周期测试影音与 AI | 先月付，入口以服务商页面为准 | [注册](https://go.uukk.de/vpnmiao) |
+| **COCODUCK VPN** | IEPL/BGP 混合，适合 VLESS、AI 与流媒体 | 先短周期复核，入口以服务商页面为准 | [注册](https://go.uukk.de/cocoduck) |
+| **Fastlink** | BGP/IPLC 混合线路，适合长期主力与流媒体 | 先短周期复核，入口以服务商页面为准 | [注册](https://go.uukk.de/fastlink) |
 | **TAG** | 多地区节点，适合有特殊地区覆盖需求的用户 | 注意倍率，先按节点测试 | [注册](https://go.uukk.de/tag) |
 | **MESL** | IEPL 专线与家宽/商宽节点，适合高要求场景 | 主力候选，仍需按节点测试 | [注册](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC 与 AnyTLS 多地区节点，适合 AI/流媒体 | 建议短周期验证 | [注册](https://go.uukk.de/immtele) |
@@ -413,7 +413,7 @@
 | **ViKing Links** | 多地区与流媒体场景，适合中高预算用户 | 先核对套餐和设备限制 | [注册](https://go.uukk.de/vikinglinks) |
 | **WgetCloud** | 团队办公和高预算稳定性需求 | 年付门槛较高，建议先确认退款条件 | [注册](https://go.uukk.de/wgetcloud) |
 
-> 本次入口更新时间：2026-09-12。当前表格改为 VPSKnow 的主力候选入口；线路、套餐、优惠和客户端要求变化很快，付款前请以 VPSKnow 页面、服务商公告和结算页为准。
+> 本次入口更新时间：2026-09-12。当前表格为主力候选入口；线路、套餐、优惠和客户端要求变化很快，付款前请以服务商公告和结算页为准。
 
 <a id="troubleshoot"></a>
 #### 关键设置与排障要点（通用）
